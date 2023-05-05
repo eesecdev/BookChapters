@@ -1,6 +1,7 @@
 Book Chapter
 * Threat Model VS Threat Modelling - grey lit references (Alex + Sam)
-* Missing Featurer: Attacker Model (Fabio)
+* Missing Features: Attacker Model (Fabio),
+ measures of outcome (Fabio, possibly seeking Alex input)
 * Adaptability and Evolution of Threat Model (Liliana)
 * Skillset for threat modeling (Tamara)
 * Integration with software development process (Sven)
