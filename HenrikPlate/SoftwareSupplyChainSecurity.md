@@ -34,15 +34,15 @@ Overall idea: Highlight challenges and contrast with existing efforts from indus
 - Benchmarks
     - Consumers can hardly verify security tool results (SBOM generators, or impact assessments based on data or control flow analysis, etc.)
     - Example SBOMs (use food analogy)
-        - Define what should be included in SBOMs (cf. [The Minimum Elements For a Software Bill of Materials ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf))
-        - 
+        - Define what should be included in SBOMs (cf. [The Minimum Elements For a Software Bill of Materials ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf)
         - Do documented checks (and corresponding attestations) make it unnecessary to keep track of every detailed component?
         - This will again result/require trust in private or public sector organizations (and their tools)
     - Increase tool verifiablity (does in-toto fit here?)
     - Creation and maintenance of independent Benchmarks à la https://www.dacapobench.org/ by independent, non-profit organizations
 
 - Cloud Service Providers
-    - [Shared Responsiblity Model](https://www.crowdstrike.com/cybersecurity-101/cloud-security/shared-responsibility-model/) for Cloud Security does not apply to OSS consumption. Maybe explain the main differences in a paragraph. 
+    - [Shared Responsiblity Model](https://www.crowdstrike.com/cybersecurity-101/cloud-security/shared-responsibility-model/) for Cloud Security does not apply to OSS consumption. Maybe explain the main differences in a paragraph.
+    - Fabio: the shared security model is just a lawyer's model. In the same way that software companies have transferred the blame for the security vulnerabilities that they ship to the users who don't update fast enough, the only purpose of the `shared' responsibility model is to put the blame on users for everything that happens, with the exception of cases in which this would be really outrageous. If you look at the table listing the security elements vs SaaS, PaaS and IaaS and who is to blame for which fault you will count the following occurrences: 10 CSP, 26 User. "Shared" in which sense?
     - Larger orgs follow a multi-cloud strategy to mitigate risks
 
 - Human Factors
