@@ -42,7 +42,7 @@ Overall idea: Highlight challenges and contrast with existing efforts from indus
 
 - Cloud Service Providers
     - [Shared Responsiblity Model](https://www.crowdstrike.com/cybersecurity-101/cloud-security/shared-responsibility-model/) for Cloud Security does not apply to OSS consumption. Maybe explain the main differences in a paragraph.
-    - Fabio: the shared security model is just a lawyer's model. In the same way that software companies have transferred the blame for the security vulnerabilities that they ship to the users who don't update fast enough, the only purpose of the `shared' responsibility model is to put the blame on users for everything that happens, with the exception of cases in which this would be really outrageous. If you look at the table listing the security elements vs SaaS, PaaS and IaaS and who is to blame for which fault you will count the following occurrences: 10 CSP, 26 User. "Shared" in which sense?
+        - Fabio: the shared security model is just a lawyer's model. In the same way that software companies have transferred the blame for the security vulnerabilities that they ship to the users who don't update fast enough, the only purpose of the `shared' responsibility model is to put the blame on users for everything that happens, with the exception of cases in which this would be really outrageous. If you look at the table listing the security elements vs SaaS, PaaS and IaaS and who is to blame for which fault you will count the following occurrences: 10 CSP, 26 User. "Shared" in which sense?
     - Larger orgs follow a multi-cloud strategy to mitigate risks
 
 - Human Factors
