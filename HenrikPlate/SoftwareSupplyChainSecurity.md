@@ -10,6 +10,7 @@ Overall idea: Highlight challenges and contrast with existing efforts from indus
 
 - Visibility / Context Awareness
     - Lookup and comparison of alternative OSS components is difficult, e.g. to find components with equivalent features
+    - Fabio: I think this is a misleading view. the whole point should be you have no choice really. Adoption reasons are not related to security, sometimes not even to functionality (e.g. the license is wrong or you have a developers team with experience in Java and even if there is something great in Rustyou are not going to do a crosslanguage project). So the SBOM is "given". 
     - Architecture comprehension
         - Automated discovery of component capabilities (in general, independent of specific use-cases)
         - Understand how a given component (which features) are used in a specific application context, esp. for transitive components
