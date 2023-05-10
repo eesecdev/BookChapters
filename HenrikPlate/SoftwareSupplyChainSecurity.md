@@ -2,15 +2,19 @@
 
 Overall idea: Highlight challenges and contrast with existing efforts from industry/academia to clarify which ones are covered (or at least worked on), and which ones, in our opinion, are not looked at sufficiently.
 
+
+
 - Introduction, Motivation and Terminology
     - Roles (developers, suppliers, consumers)
     - Types of dependencies (across the stack and lifecycle, e.g. container deps, library deps or service providers invoked at runtime)
-    - High-level challenge: Build trustworthy software out of untrusted components (and where are trust boundaries in the 1st place)
+    - High-level challenge: "You got no choice really"
+        -  Fabio: the whole point should be you have no choice really. From a security perspective a SBOM is like an arranged marriage. In some cases it is even a "picture-spouse marriage". Adoption reasons are not related to security, sometimes not even to functionality (e.g. the license is wrong or you have a developers team with experience in Java and even if there is something great in Rust you are not going to do a crosslanguage project). So the SBOM is "given".
+        - Then, build trustworthy software out of untrusted component (and where are trust boundaries in the 1st place) is a derived challenge for security researchers.
     - Inhibiting innovation through regulation/controls (?)
 
 - Visibility / Context Awareness
     - Lookup and comparison of alternative OSS components is difficult, e.g. to find components with equivalent features
-    - Fabio: I think this is a misleading view. the whole point should be you have no choice really. Adoption reasons are not related to security, sometimes not even to functionality (e.g. the license is wrong or you have a developers team with experience in Java and even if there is something great in Rustyou are not going to do a crosslanguage project). So the SBOM is "given". 
+        - See previous point. The point is not the comparison is the audit of a choice already made and what could be the mitigation measures.
     - Architecture comprehension
         - Automated discovery of component capabilities (in general, independent of specific use-cases)
         - Understand how a given component (which features) are used in a specific application context, esp. for transitive components
