@@ -27,13 +27,15 @@ Overall idea: Highlight challenges and contrast with existing efforts from indus
 
 - Metrics
     - Risk metrics (for better component selection and comparison), e.g. risk of maintainers disappearing or use of sensitive APIs
-    - Existing works: Bus factor, OSSF Scorecards, [GUAC](https://github.com/guacsec/guac) (for entire dep trees)
+    - Existing works: Bus factor, OSSF Scorecards, [GUAC](https://github.com/guacsec/guac) (for entire dep trees), [Technical Leverage](https://techleverage.org/)
+        - Key problem is that if you want a metric you want it to correlate with some outcome (See Alex talk), could be even be vulnerabilities. Otherwise it is just datascience dazzle. GUAC is an example of pointless datascience vacuum cleaner: gold might be there together with a huge pile of stones.
     - What are differences between metrics for commercial and OSS supply chain components (if any)?
 
 - Benchmarks
     - Consumers can hardly verify security tool results (SBOM generators, or impact assessments based on data or control flow analysis, etc.)
     - Example SBOMs (use food analogy)
         - Define what should be included in SBOMs (cf. [The Minimum Elements For a Software Bill of Materials ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf))
+        - 
         - Do documented checks (and corresponding attestations) make it unnecessary to keep track of every detailed component?
         - This will again result/require trust in private or public sector organizations (and their tools)
     - Increase tool verifiablity (does in-toto fit here?)
@@ -52,7 +54,10 @@ Overall idea: Highlight challenges and contrast with existing efforts from indus
         - (Non-)Usable tooling that does not fit into workflows, e.g. issue prioritization and documentation
         - Usable and acceptable authentication mechanisms for developers
         - Cognitive biases/conflicts of stakeholders, information needs, etc.
+- Organizational Factors
+    - are the inside human factors?
 
+ 
 - The role of private orgs in supply chain security
     - Incentive structure
     - Participation in open source foundations (only strategic projects get a lot of attention)
