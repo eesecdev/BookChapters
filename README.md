@@ -5,7 +5,7 @@ _Editors:_
 
 + Eric Bodden <eric.bodden@upb.de>, Paderborn University & Fraunhofer IEM, Germany
 + Laurie Williams <laurie.williams@gmail.com>, NCState, USA
-+ Samuel Weber <smweber@andrew.cmu.edu, Office of Naval Research, USA
++ Samuel Weber <smweber@andrew.cmu.edu>, Office of Naval Research, USA
 
 ## Why This Book?		
 
