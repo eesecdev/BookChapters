@@ -1,5 +1,11 @@
 ## Metrics in Secure Development Process: Challenges and Open Research Questions 
 
+### Contributors
+
+
+- [Akond Rahman](https://akondrahman.github.io/) [Contact: akond.rahman.buet@gmail.com] 
+- [Daniela Cruzes](https://www.ntnu.edu/employees/daniela.s.cruzes) [Contact: daniela.s.cruzes@ntnu.no]
+
 
 ### Introduction
 
@@ -31,6 +37,8 @@ Participants also provided possible explanations on why proposed metrics are not
 
 The discussion of the challenges also revealed opportunities for research. Participants in the breakout group mentioned metrics required to measure the attack surface of a software system. Recent work from Theisen et al. [2] came into discussion, which participants felt as a good starting point for metrics needed to measure attack surface. Metrics needed to measure secure development process as a whole for the constituting components, such as continuous integration, continuous deployment, and infrastructure as code. For automated computing infrastructure management these practices play a pivotal role, and there are research opportunities in collecting, curating, and validating a set of novel metrics that can advance the state of the art for secure development and operations (DevSecOps) research [4]. Metrics related to the evaluation of bypassing vulnerability mitigation strategies, and effectiveness of security static analysis tools also were discussed and identified as important.  
 
+At the beginning of the discussion process, the discussion leads discussed a paper from Pendleton et al. [5], which provides a survey of existing security metrics. The authors of the paper [5] provided a framework to categorize system-level security metrics that included the following categories: (i) system vulnerabilities; (ii) metrics of defense power; (iii) metrics of attack or threat severity; and (iv) metrics of situations. The participants found the paper useful, and felt some of these metrics can be used in the domain of secure software development process. Some participants stressed the importance of re-applying a similar survey design of existing software security metrics.   
+
 
 ### Research Questions 
 
@@ -53,3 +61,4 @@ References:
 2.	Theisen, C., Munaiah, N., Al-Zyoud, M., Carver, J. C., Meneely, A., & Williams, L. (2018). Attack surface definitions: A systematic literature review. Information and Software Technology, 104, 94-103.
 3.	Andrew Meneely, Ben Smith, and Laurie Williams. 2013. Validating software metrics: A spectrum of philosophies. ACM Trans. Softw. Eng. Methodol. 21, 4, Article 24 (November 2012), 28 pages. https://doi.org/10.1145/2377656.2377661 
 4. A. A. U. Rahman and L. Williams, "Software Security in DevOps: Synthesizing Practitioners’ Perceptions and Practices," 2016 IEEE/ACM International Workshop on Continuous Software Evolution and Delivery (CSED), Austin, TX, USA, 2016, pp. 70-76.
+5. Pendleton, M., Garcia-Lebron, R., Cho, J. H., & Xu, S. (2016). A survey on systems security metrics. ACM Computing Surveys (CSUR), 49(4), 1-35.
